@@ -1,4 +1,4 @@
-# CSCI 270 Fall 2020
+# CSCI 270 Spring 2021
 
 ## Why should we learn this course?
 1. Core courses of CS:
