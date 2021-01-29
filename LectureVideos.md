@@ -4,3 +4,4 @@ https://stambrose.webex.com/webappng/sites/stambrose/recording/4559159ec410418fb
 ## Wednesday 01/27/2021
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/acca1b2878374b47baf40e3049dc7da0/playback
 ## Friday 01/29/2021
+https://stambrose.webex.com/recordingservice/sites/stambrose/recording/d2fdafddcb5e4f6c8535f34b1cf4e5e5/playback
