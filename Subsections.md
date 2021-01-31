@@ -3,7 +3,7 @@
 + Sam Frost
 + Loreena Peragine
 + Sydney Olson
-+ Joshua Hay
+
 + Jordan William
 + Jonathon T. Kokoruda
 + Ryan T. Quinn
@@ -17,5 +17,6 @@
 + Jonathon T. Kokoruda
 + Ryan T. Quinn
 + Mai T. Truong
++ Joshua Hay
 ## Friday
 + Tim Snicker
