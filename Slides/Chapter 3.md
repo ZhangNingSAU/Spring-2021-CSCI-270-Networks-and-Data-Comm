@@ -44,7 +44,7 @@
 ## IP address
 + static IP address
 + dynamic IP address by **DHCP**(dynamic Host Configuration Protocal) server
-+ gateway: A computer/router/other device that a host uses to access another network. The default getway is a getway device that nodes on the network turn to first for access to outside world.
++ gateway: A computer/router/other device that a host uses to access another network. The default gateway is the gateway device that nodes on the network turn to first for access to the outside world
 + subnet mask/net mask
   - 32 bits 
   - seperate host ID from network ID (IP address consists of 2 parts, host ID and network ID)
