@@ -33,7 +33,7 @@
   - on application layer
   - host name + domain name
   - for example `www.google.com` has a host name `www` and a domain name `google.com`
-  - `blackboard.sau.edu` has a host name `blackboard` and a domain name `blackboard`
+  - `blackboard.sau.edu` has a host name `blackboard` and a domain name `sau.edu`
 ## MAC address
 ![](http://haslab.co.uk/images/MAC%20on%20NIC.png)
 + 48 bits/ 6 bytes (for example 00:60:8C:00:54:99)
