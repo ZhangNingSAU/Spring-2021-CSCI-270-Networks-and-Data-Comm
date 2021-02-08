@@ -50,7 +50,9 @@
   - seperate host ID from network ID (IP address consists of 2 parts, host ID and network ID)
 + DNS server
   - responsible for tracking computer names and their IP addresses
-+ You can use *ipconfig* utility in *Command Prompt* window  to find the current TCP/IP settings.
++ Command to find the current TCP/IP settings
+  - *ipconfig* utility in *Command Prompt* window(Windows OS).
+  - *ifconfig* in *Terminal*(MacOS or Linux)
 
 ### IPv4
 + 32-bit/4 octets, the range of each octet (0,255)
