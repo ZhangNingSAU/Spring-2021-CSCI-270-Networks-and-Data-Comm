@@ -58,7 +58,7 @@
 + 32-bit/4 octets, the range of each octet (0,255)
 + the smallest IP 0.0.0.0, the laregest 255.255.255.255
 + the are totally 256\*256\*256\*256 = 4.3 billion IPv4 addresses
-+ IP = network ID(first 16 bits) + host ID(last 16 bits)
++ IP = network ID + host ID
 + classful addression(5 classes: class A, class B, class C, class E, and class E)
 
 |Class|Network octets|approximate number of networks|approximate num of IP addresses in each network|usage|
