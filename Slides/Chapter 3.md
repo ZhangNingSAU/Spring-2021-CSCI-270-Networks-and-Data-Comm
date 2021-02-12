@@ -103,6 +103,7 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   - DHCP server can recoganize the client by its MAC address and assign the same IP address.
   - reserved IP is not static IP, if you set a static IP, you need an IP exclusion on the DHCP server
 + Router can work as a DHCP server
+  -[Lab](../Labs/Ch3-DHCP.md)
 
 #### Address translation: 
 + NAT(network address translation)
