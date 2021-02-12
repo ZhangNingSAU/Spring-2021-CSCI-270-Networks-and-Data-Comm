@@ -27,3 +27,6 @@ Router(config)#ip dhcp excluded-address 192.168.1.1 192.168.1.10
 
 + Do this for the other PCs.
 
+
+# You can find more details [here](https://www.cisco.com/en/US/docs/ios/12_4t/ip_addr/configuration/guide/htdhcpsv.html)
+
