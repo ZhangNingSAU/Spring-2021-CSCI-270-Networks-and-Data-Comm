@@ -236,4 +236,15 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   - query DNS database from any computer on the network
   - example: nslookup google.com
 
+ ### dig
+  - The dig (domain information groper) utility is available on Linux and macOS and provides more detailed domain information than nslookup
+
+## Common Network Issues
+### Incorrect time
+### DHCP Issues
+### Network Connection Configuration Issues
++ incorrect netmask
++ incorrect gateway
++ duplicate IP address
+
 
