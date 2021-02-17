@@ -123,6 +123,10 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
 
 ![](../Resources/ch3-snatdnat.png)
 
++ SNAT and DNAT labs you can try.
+  - [SNAT](https://computernetworking747640215.wordpress.com/2018/07/05/static-nat-configuration-in-packet-tracer/)
+  - [NDAT](https://computernetworking747640215.wordpress.com/2018/07/05/dynamic-nat-configuration-in-packet-tracer/)
+  - [SNAT and DNAT](../Resources/NAT.pdf)
 ### IPv6
 #### why?
   + allows for more public IP addresses
