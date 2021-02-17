@@ -223,6 +223,7 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
     + to verify DNS is working: `ping -a 8.8.8.8` (Google's public DNS servers)
     + to verify TCP/IP service is working: `ping 127.0.0.1` or `ping localhost`
     + to verify if you can reach a specific IP: `ping ip_address`
+    + pinging Google’s IPv6 DNS server: `ping -6 2001:4860:4860::8888` or `ping6 2001:4860:4860::8888`
  ### ipconfig (only for windows)
   - in Command Prompt window
   - to view and manage the TCP/IP settings
