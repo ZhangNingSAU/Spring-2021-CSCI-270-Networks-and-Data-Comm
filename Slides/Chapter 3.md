@@ -199,7 +199,7 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
       - stored on thousands of servers, not on a or serveral servers.
     + name servers: these servers contain namespace database
       - organizations who provide public host services(email.websites...) is responsible for DNS servers.
-        + primary DNS server: contains DNS database associated with the organizatin
+        + primary DNS server: contains DNS database associated with the organization
         + secondary DNS server: backup of primary DNS server
         + caching DNS server: cache the DNS info when it accesses public DNS data
         + forwarding  DNS server(optional): If it does not have the information a client needs, forward the request to another name server.
