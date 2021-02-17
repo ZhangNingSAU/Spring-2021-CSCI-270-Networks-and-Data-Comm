@@ -181,7 +181,7 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
       - 49152 to 65535
       - without restriction
  ## Domain names and DNS(domain name system)
- + Domain names(www.google.com etc) are convenient for human to remember.
+ + Host and domain names(www.google.com etc) are convenient for human to remember.
  + For a FQDM(fully qualified domain name/host name + domain name), the last part (com for www.google.com) is called TLD(top-level domain)
  
  |TLD|type of organization|
