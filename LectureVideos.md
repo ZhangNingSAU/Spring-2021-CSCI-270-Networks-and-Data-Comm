@@ -27,3 +27,5 @@ https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/818f24cf8b674fa096ddb8d2105ef472
 ## Wednesday 02/17/2021
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/d3c83569ccf2436abdcb5b63a6b63d16
+## Friday 02/19/2021
+https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/c3b7d4b497ca4c0bb37e208bba563616
