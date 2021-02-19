@@ -1,6 +1,6 @@
-# CSCI 270 Fall 2020
+# CSCI 270 Spring 2021
 # Homework 2
-# Due: 11:59 pm 09/10/2019
+# Due: 11:59 pm 02/26/2019
 
 ## Q1: Use ipconfig(windows) or ifconfig(mac) to find out all the MAC address of you computer, then list the part of each MAC address that is unique to each manufacturer.(10 points)
 
