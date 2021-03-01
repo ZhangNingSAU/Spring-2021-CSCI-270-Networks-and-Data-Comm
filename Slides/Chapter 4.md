@@ -62,7 +62,7 @@
   - max packet size 64k(65535 bytes), MTU (Maximum Transmission Unit) for Ethernet 1500 bytes. Find details in section **Ethernet** on textbook. 
 #### TCP Four Waves
 
-![4 waves](https://imgs.developpaper.com/imgs/706653659-5d2736901924f_articlex.png)
+![4 waves](https://www.programmersought.com/images/736/6c754bcce23cbabefdd69c3dd7717358.png)
 
 ### UDP(user datagram protocol): a unreliable, connectionless protocol
 
