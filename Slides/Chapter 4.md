@@ -60,6 +60,9 @@
   - the random seq# is not real random.
   - the increment of seq# is 1 in the three-way handshake, the increment will be the length of the message after the connection is established.
   - max packet size 64k(65535 bytes), MTU (Maximum Transmission Unit) for Ethernet 1500 bytes. Find details in section **Ethernet** on textbook. 
+#### TCP Four Waves
+
+![4 waves](https://imgs.developpaper.com/imgs/706653659-5d2736901924f_articlex.png)
 
 ### UDP(user datagram protocol): a unreliable, connectionless protocol
 
