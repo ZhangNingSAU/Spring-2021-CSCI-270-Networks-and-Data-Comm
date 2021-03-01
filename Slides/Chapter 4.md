@@ -89,8 +89,11 @@ A layer 3 protocal that
 + is a connectionless protocol - no session to be established
 
 + IPv4 packet
+
 ![](../Resources/ch4-ip.png)
+
 + IPv6 packet
+
 ![](../Resources/ch4-ipv6.png)
 
 ### ICMP (internet message control protocol)
