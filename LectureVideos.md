@@ -42,3 +42,4 @@ Quiz 1
 # Week 6
 ## Monday 03/01/2021
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/b24f953856634024b9710c995f41321e
+## Wednesday 
