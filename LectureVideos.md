@@ -44,3 +44,5 @@ Quiz 1
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/b24f953856634024b9710c995f41321e
 ## Wednesday 03/03/2021
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/a7da173ea7d44dcd970202a87cd8c191/playback
+## Friday 03/05/2021
+https://stambrose.webex.com/recordingservice/sites/stambrose/recording/ffa8f437afcc430db52eaa25ca190794/playback
