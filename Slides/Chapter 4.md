@@ -223,7 +223,7 @@ without fragmentation (excludes the frame size on the local network)
 ### Routing Protocols to Determine Best Paths
 + There are routing protocols on layers 3, 4 and 7, we focus on layer 3.
 + **AD (administrative distance)**—Each routing protocol is assigned a default AD, which is a number indicating the protocol’s reliability, with lower values being given higher priority. 
-+ **convergence time**—Routing protocols are also rated on the time it takes to recog- nize a best path in the event of a change or network outage.
++ **convergence time**—Routing protocols are also rated on the time it takes to recognize a best path in the event of a change or network outage.
 + overhead—A routing protocol is rated on its overhead, or the burden placed on the underlying network to support the protocol.
 #### Common routing protocols
 |routing protocol|Type|Algorithm used|
