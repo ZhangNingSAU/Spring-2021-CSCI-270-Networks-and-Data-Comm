@@ -62,7 +62,7 @@ Complete the static routing tables for the two routers in the following network,
 
 
 ## Q9: (30 points)
-Use CISCO Packet Trace to construct the network, add the static routing entries to the routers, so that the communication between any two ports is available(I will use `ping` to randomly test 3 pairs of ports, 10 points for each pair ).
+Use CISCO Packet Trace to construct the network in Q8, add the static routing entries to the routers, so that the communication between any two ports is available(I will use `ping` to randomly test 3 pairs of ports, 10 points for each pair ).
 
 # Step 1: Save your answers for Q1-Q8 in a PDF file, name it as 'CSCI270_Homework3_JohnSmith(012345467).pdf' 
     (You can write down your answer in any text edit and print it as a pdf file later.)
