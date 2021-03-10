@@ -1,6 +1,6 @@
 # CSCI 270 Fall 2021
 # Homework 3
-# Due: 11:59pm 03/17/2020
+# Due: 11:59pm 03/19/2020
 
 ## Q1: (5 points)
 Switches only work on layer 2.
