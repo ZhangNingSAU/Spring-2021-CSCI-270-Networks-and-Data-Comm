@@ -283,7 +283,33 @@ the network and determine the best path between itself and a message’s destina
   |40.0.0.0|`--`|0|
   
  - step 2: suppose routing update happens in R2 first(it depends on the order that the routers are turned on), R2 receives the routing update from R1 and R3 and updates its routing table.
- 
+  + the routing information R1 sends to R2 is
+  
+  |Network|Next Hop|Hop count|
+  |----|----|----|
+  |10.0.0.0|20.0.0.1|1|
+  |20.0.0.0|20.0.0.1|1|
+  
+  + the routing information R3 sends to R2 is
+  
+  |Network|Next Hop|Hop count|
+  |----|----|----|
+  |30.0.0.0|30.0.0.1|1|
+  |40.0.0.0|30.0.0.1|1|
+  
+  + combine three tables(inital R2, R1->R2, R3->R2)
+  
+  |Network|Next Hop|Hop count|
+  |----|----|----|
+  |20.0.0.0|`--`|0|
+  |30.0.0.0|`--`|0|
+  |10.0.0.0|20.0.0.1|1|
+  |20.0.0.0|20.0.0.1|1|
+  |30.0.0.0|30.0.0.1|1|
+  |40.0.0.0|30.0.0.1|1|
+  
+  + for duplicate networks, only keep the one with the least hop count
+  
   |Network|Next Hop|Hop count|
   |----|----|----|
   |20.0.0.0|`--`|0|
@@ -302,14 +328,23 @@ the network and determine the best path between itself and a message’s destina
   
   **Note**: the next hop is 20.0.0.2 because R2 send its routing table to R1 through port 20.0.0.2. the hop counts increase by 1 because for each destination network, R1 can use R2 as the next hop.
   
-- step 4: R1 will compare the routing table in step 3 with its original one to keep entries with new destination newworks or smaller hop count.
+- step 4: R1 will compare the routing table in step 3 with its original one to keep entries with new destination networks or least hop count.
 
-|Network|Next Hop|Hop count|
+  |Network|Next Hop|Hop count|
   |----|----|----|
   |10.0.0.0|`--`|0|
   |20.0.0.0|`--`|0|
   |30.0.0.0|20.0.0.2|1|
   |40.0.0.0|20.0.0.2|2|
+  
+- step 5: repeat steps 3 and 4 for R3 to get the routing table for R3.
+
+  |Network|Next Hop|Hop count|
+  |----|----|----|
+  |30.0.0.0|`--`|0|
+  |40.0.0.0|`--`|0|
+  |10.0.0.0|30.0.0.2|1|
+  |20.0.0.0|30.0.0.2|2|
   
 #### OSPF (Open Shortest Path First)
 + core or edge routers
