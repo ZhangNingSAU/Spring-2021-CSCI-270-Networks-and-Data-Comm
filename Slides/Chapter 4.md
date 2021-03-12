@@ -369,24 +369,14 @@ avoid a certain router, or instruct a group of routers to prefer one particular 
 
 |Command|Description|
 |---|---|
-|traceroute –n google.com
-or
-tracert –d google.com|Instructs the command to not resolve IP addresses to host names.|
-|traceroute –m 12 google.com
-or
-tracert –h 12 google.com|Specifies the maximum number of hops when attempting to reach a host; this parameter must be followed by a specific number. Without this parameter, the command defaults to 30.|
-|traceroute –w 2 google.com
-or
-tracert –w 2000 google.com|Identifies a timeout period for responses; this parameter must be followed by a variable to indicate the number of seconds (in Linux) or milliseconds (in Windows) that the utility should wait for a response. The default time is usually between 3 and 5 sec- onds for Linux and 4000 milliseconds (4 seconds) for Windows.|
+|traceroute –n google.com or tracert –d google.com|Instructs the command to not resolve IP addresses to host names.|
+|traceroute –m 12 google.com or tracert –h 12 google.com|Specifies the maximum number of hops when attempting to reach a host; this parameter must be followed by a specific number. Without this parameter, the command defaults to 30.|
+|traceroute –w 2 google.com or tracert –w 2000 google.com|Identifies a timeout period for responses; this parameter must be followed by a variable to indicate the number of seconds (in Linux) or milliseconds (in Windows) that the utility should wait for a response. The default time is usually between 3 and 5 sec- onds for Linux and 4000 milliseconds (4 seconds) for Windows.|
 |traceroute –f 3 google.com|ets the first TTL value and must be followed by a variable to indicate the number of hops for the first probe. The default value is 1, which begins the trace at the first router on the route. Beginning at later hops in the route can more quickly narrow down the location of a network problem. tracert does not have a corresponding parameter for this function.|
 |traceroute –I google.com|Instructs the command to use ICMP echo requests instead of UDP datagrams.|
 |traceroute –T google.com|Instructs the command to use TCP SYN probes instead of UDP datagrams.|
-|traceroute –4 google.com
-or
-tracert –4 google.com|Forces the command to use IPv4 packets only.|
-|traceroute –6 google.com
-or
-tracert –6 google.com|Forces the command to use IPv6 packets instead of IPv4. The other parameters can be added to these IPv6 commands and function essentially the same as they do in IPv4.|
+|traceroute –4 google.com or tracert –4 google.com|Forces the command to use IPv4 packets only.|
+|traceroute –6 google.com or tracert –6 google.com|Forces the command to use IPv6 packets instead of IPv4. The other parameters can be added to these IPv6 commands and function essentially the same as they do in IPv4.|
 
 ## pathping(windows)
 + The Windows utility pathping combines elements of both ping and tracert to provide deeper information about network issues along a route.
