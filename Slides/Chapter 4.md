@@ -340,4 +340,100 @@ the network and determine the best path between itself and a message’s destina
 avoid a certain router, or instruct a group of routers to prefer one particular route over other available routes.
 
 
+# Troubleshooting Tools
+## netstat
++ the port on which a TCP/IP service is running
++ which network connections are currently established for a client
++ how many messages have been handled by a network interface since it was activated
++ how many data errors have occurred on a particular network interface
 
+|netstat command for Windows|Description|
+|----|----|
+|netstat|Lists all active TCP/IP connections on the local machine, including the Transport layer protocol used (usually just TCP), messages sent and received, IP address, and state of those connections.|
+|netstat -n|Lists current connections, including IP addresses and ports.|
+|netstat -f|Lists current connections, including IP addresses, ports, and FQDNs.|
+|netstat -a|Lists all current TCP connections and all listening TCP and UDP ports.|
+|netstat –e|Displays statistics about messages sent over a network interface, includ- ing errors and discards.|
+|netstat –s|Displays statistics about each message transmitted by a host, separated according to protocol type (TCP, UDP, IP, or ICMP).|
+|netstat –r|Displays routing table information.|
+|netstat –o|Lists the PID (process identifier) for each process using a connection and information about the connection.|
+|netstat –b|Lists the name of each process using a connection and information about the connection. Requires an elevated Command Prompt.|
+
+## tracert(windows) or traceroute(unix,linux)
++ The Windows **tracert** utility uses ICMP echo requests to trace the path from one networked node to another, identifying all intermediate hops between the two nodes.
++ Linux, UNIX, and macOS systems use UDP datagrams or, possibly, TCP SYN messages, for their **traceroute** utility, but the concept is still the same.
++ Both traceroute and tracert utilities employ a trial-and-error approach to discover the nodes at each hop from the source to the destination, as described here:
+  - Traceroute sends UDP messages to a random, unused port on the destination node, and listens for an ICMP “Port Unreachable” error message in response from that node.
+  -  Tracert sends an ICMP echo request to the destination node and listens for an ICMP echo reply from that node.
+  -  Both utilities limit the TTL of these repeated trial messages, called **probes**, thereby triggering routers along the route to return specific information about the route being traversed. In fact, by default they send three probes with each iteration so averages can be calculated from the three responses at each step.
+
+|Command|Description|
+|---|---|
+|traceroute –n google.com
+or
+tracert –d google.com|Instructs the command to not resolve IP addresses to host names.|
+|traceroute –m 12 google.com
+or
+tracert –h 12 google.com|Specifies the maximum number of hops when attempting to reach a host; this parameter must be followed by a specific number. Without this parameter, the command defaults to 30.|
+|traceroute –w 2 google.com
+or
+tracert –w 2000 google.com|Identifies a timeout period for responses; this parameter must be followed by a variable to indicate the number of seconds (in Linux) or milliseconds (in Windows) that the utility should wait for a response. The default time is usually between 3 and 5 sec- onds for Linux and 4000 milliseconds (4 seconds) for Windows.|
+|traceroute –f 3 google.com|ets the first TTL value and must be followed by a variable to indicate the number of hops for the first probe. The default value is 1, which begins the trace at the first router on the route. Beginning at later hops in the route can more quickly narrow down the location of a network problem. tracert does not have a corresponding parameter for this function.|
+|traceroute –I google.com|Instructs the command to use ICMP echo requests instead of UDP datagrams.|
+|traceroute –T google.com|Instructs the command to use TCP SYN probes instead of UDP datagrams.|
+|traceroute –4 google.com
+or
+tracert –4 google.com|Forces the command to use IPv4 packets only.|
+|traceroute –6 google.com
+or
+tracert –6 google.com|Forces the command to use IPv6 packets instead of IPv4. The other parameters can be added to these IPv6 commands and function essentially the same as they do in IPv4.|
+
+## pathping(windows)
++ The Windows utility pathping combines elements of both ping and tracert to provide deeper information about network issues along a route.
+
+|pathping command|Description|
+|---|---|
+|pathping –ngoogle.com|Instructs the command to not resolve IP addresses to host names.|
+|pathping –h 12google.com|Specifies the maximum number of hops the messages should take when attempting to reach a host (the default is 30); this parameter must be followed by a specific number of hops.|
+|pathping –p 2000google.com|Identifies the wait time between pings; this parameter must be followed by a variable to indicate the number of milliseconds to wait. The default time is 4000 milliseconds (4 seconds).|
+|pathping –q 4google.com|Limits the number of queries per hop; must be followed by a variable to indicate the number of queries allowed. By default, pathping sends 100 pings per hop, which tends to take a long time to run.|
+
+## mtr or mtr-tiny (linux)
++ similar to pathping(windows)
+
+## tcpdump (linux, unix)
++ The tcpdump utility is a free, command-line **packet sniffer** that runs on Linux and other Unix operating systems.
++ A packet sniffer works as the Wireshark software.
++ You must either use the sudo command or log in as root to access tcpdump. To do this, either enter sudo before each tcpdump command, or at the shell prompt, enter sudo su root, which changes you over to the root account.
+
+|tcpdump command|Description|
+|---|---|
+|tcpdump not port 22 or tcpdump not port 23|Filters out SSH or Telnet packets, which is helpful when running tcpdump on a remotely accessed network device.|
+|tcpdump -n|Instructs the command to not resolve IP addresses to host names.|
+|tcpdump -c 50|Limits the number of captured packets to 50.|
+|tcpdump -i any|Listens to all network interfaces on a device.|
+|tcpdump -D|Lists all interfaces available for capture.|
+|tcpdump port http|Filters out all traffic except HTTP.|
+|tcpdump -w capture.cap|Saves the file output to a file named capture.cap.|
+|tcpdump -r capture.cap|Reads the file capture.cap and outputs the data in the terminal win- dow. This file can also be read by applications like Wireshark.|
+
+# Solving Common Routing Problems
+
+|Command|Common uses|
+|---|---|
+|arp|Provides a way of obtaining information from and manipulating a device’s ARP table.|
+|dig|Queries DNS servers with more advanced options than nslookup.|
+|ipconfig or ifconfig|Provides information about TCP/IP network connections and the ability to manage some of those settings.|
+|netstat|Displays TCP/IP statistics and details about TCP/IP components and connections on a host.|
+|nmap|Detects, identifies, and monitors devices on a network.|
+|nslookup|Queries DNS servers and provides the ability to manage the settings for accessing those servers.|
+|pathping (mtr on Linux/UNIX/ macOS)|Sends multiple pings to each hop along a route, then compiles the information into a single report.|
+|ping|Verifies connectivity between two nodes on a network.|
+|route|Displays a host’s routing table.|
+|tcpdump|Captures traffic that crosses a computer’s network interface.|
+|traceroute or tracert|Traces the path from one networked node to another, identifying all intermediate routers between the two nodes.|
+
+
+## Duplicate MAC Addresses
+## Hardware Failure
+## Discovering Neighbor Devices
