@@ -86,7 +86,7 @@ to carry multiple light signals simultaneously by dividing a light beam into dif
 + ![](../Resources/ch5-coax.png)
 + two most common coax specifiations still in use today
 
-|Type|Impedence|Core|Use|
+|Type|Impedance|Core|Use|
 |----|----|----|----|
 |RG-59|75 ohms|20 or 22 AWG core, usually made of braided copper |Still used for relatively short connections, for example, when distributing video signals from a central receiver to multiple monitors within a building. RG-59 is less expensive than the more common RG-6, but suffers from greater attenuation.|
 |RG-6|75 ohms|18 AWG conducting core, usually made of solid copper|Used to deliver broadband cable Internet service and cable TV, particularly over long distances. Cable Internet service entering your home is RG-6.|
