@@ -39,7 +39,9 @@ why throughput < bandwidth?
 + attenuation
   - the loss of a signal’s strength as it travels away from its source.
   - solution: **repeater** which regenerates a digital signal in its original form without the noise it might have previously accumulated
+  
   ![](../Resources/ch5-repeater.png)
+  
 + latency.
   - latency is the delay between the instant when data leaves the source and when it arrives at its destination.
   - caused by the length of the cable, any intervening connectivity devices(such as routers)
@@ -83,7 +85,9 @@ to carry multiple light signals simultaneously by dividing a light beam into dif
 
 ## coaxial cable (legacy media)
 + the foundation for Ethernet networks in the 1980s.
+
 + ![](../Resources/ch5-coax.png)
+
 + two most common coax specifiations still in use today
 
 |Type|Impedance|Core|Use|
