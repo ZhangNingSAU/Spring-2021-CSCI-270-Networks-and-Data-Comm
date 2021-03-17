@@ -1,7 +1,7 @@
-# CSCI 270 Fall 2020
+# CSCI 270 Spring 2021
 # Homework 4 
 # for chapter 5
-# Due: 11:59 pm 10/13/2020
+# Due: 11:59 pm 03/24/2021
 
 ## Q1: (15 points)
 Explain the difference between bandwidth and throughput.
