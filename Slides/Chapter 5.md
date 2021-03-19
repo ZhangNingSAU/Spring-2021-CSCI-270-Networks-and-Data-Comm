@@ -166,19 +166,7 @@ into RJ-45 plugs: TIA/EIA 568A and TIA/EIA 568B (also known as T568A and T568B, 
     + reverses all the wires without regard to how they are paired.
     + are used to connect a computer to the console port of a router.
   ![](../Resources/ch5-rollover.png)
-## PoE (Power over Ethernet)
 
-+ PoE specifies a method for supplying electrical power over twisted-pair Ethernet connections
-+ On an Ethernet network, carrying power over network connections can be useful for nodes that are located far from traditional power receptacles or need a constant, reliable power source.
-+ The amount of power provided is relatively small—15.4 watts for standard PoE devices and 25.5 watts for the newer PoE1 devices, that’s enough to power a wireless access point, an IP telephone, or a security camera mounted high on a wall.
-+ The PoE standard specifies two types of devices
-  - PSE (power sourcing equipment)—The device that supplies the power
-    + A switch or router that is expected to provide power over Ethernet must support the technology.
-  - PDs (powered devices)—Devices that receive power from the PSE
-    + the end node must be capable of receiving PoE.
-    ![](../Resources/ch5-camera.png)
-    + non-PoE devices can use adaptors.
-    ![poe](../Resources/ch5-poe.png)
 
 ## Ethernet Standards for Twisted-Pair Cable
 |Standard|Maximum transmission speed (Mbps)|Maximum distance per segment (m)|Physical media|Pairs of wires used for transmission|
@@ -277,3 +265,18 @@ drawback
   - QSFP (quad small form-factor pluggable, 4 channels => 4 x 10 Gbps)
   - QSFP1 (4 x 28 Gbps)
   - CFP (centum form-factor pluggable, Centum is Latin for 100, 100 Gbps)
+
+
+## PoE (Power over Ethernet)
+
++ PoE specifies a method for supplying electrical power over twisted-pair Ethernet connections
++ On an Ethernet network, carrying power over network connections can be useful for nodes that are located far from traditional power receptacles or need a constant, reliable power source.
++ The amount of power provided is relatively small—15.4 watts for standard PoE devices and 25.5 watts for the newer PoE1 devices, that’s enough to power a wireless access point, an IP telephone, or a security camera mounted high on a wall.
++ The PoE standard specifies two types of devices
+  - PSE (power sourcing equipment)—The device that supplies the power
+    + A switch or router that is expected to provide power over Ethernet must support the technology.
+  - PDs (powered devices)—Devices that receive power from the PSE
+    + the end node must be capable of receiving PoE.
+    ![](../Resources/ch5-camera.png)
+    + non-PoE devices can use adaptors.
+    ![poe](../Resources/ch5-poe.png)
