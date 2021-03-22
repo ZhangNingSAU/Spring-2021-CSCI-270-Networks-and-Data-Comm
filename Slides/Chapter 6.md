@@ -152,7 +152,7 @@ it encounters an obstruction.(caused by objects with sharp edges)
 
 + The most popular OSI Physical and Data Link layer standards used by WLANs is Wi-Fi (wireless fidelity).
 + The 802.11 standards vary at the Physical layer: 802.11b, 802.11a, 802.11g, 802.11n, and 802.11ac
-  - and [**Wi-Fi 6 (802.11 ax) last year**](https://www.tp-link.com/us/wifi6/)
+  - and [**Wi-Fi 6 (802.11 ax) 2019**](https://www.tp-link.com/us/wifi6/)
 + Like 802.3 (Ethernet), 802.11 appends 48-bit physical addresses to a frame to identify its source and destination.
 
 
