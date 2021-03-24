@@ -1,6 +1,6 @@
 # CSCI 270 Homework Assignment 5
 # for Chapter 6
-# due: 11:59 pm Tuesday 11/03/2020
+# due: 11:59 pm  03/31/2021
 
 ## Q1: (10 points)
 In 7-layer OSI model, at which layers LANs and WLANs share many similarities? at which layers they are vastly different?
@@ -38,7 +38,7 @@ Describe different wireless topologies.
 ## Q10 (10 points)
 Describe the solutions to Wi-Fi Network Security.
 
-# Step 1: Save your answers for Q1-Q10 in a PDF file, name it as 'CSCI270_Homework5_JohnSmith(012345467).pdf' 
+# Step 1: Save your answers for Q1-Q10 in a PDF file, name it as 'CSCI270_Homework5_JohnDoe(012345467).pdf' 
 (You can write down your answer in any text edit and print it as a pdf file later.)
 
 # Step 2: Submit the PDF file on [Blackboard](https://blackboard.sau.edu)
