@@ -1,0 +1,75 @@
+routing tables 
+
+in step 1
+
+initial routing tables 
+
+R0
+Network        Next Hop    Hop Count
+192.168.1.0    -----       0
+192.168.2.0    -----       0
+
+R1
+Network       Next Hop     Hop Count
+192.168.2.0    -----       0
+192.168.3.0    -----       0
+
+in step 2
+assume R0 -> R1 (you can also assume R1 sends the routing info to R0 first, the order does not affect the final result)
+the following is the routing info R0 sends to R1
+
+Network        Next Hop    Hop Count
+192.168.1.0    192.168.2.1       1
+192.168.2.0    192.168.2.1       1
+
+The most difficult part in the table above is the Next Hop, this is the interface through which R1 can send message to R0.
+
+After receiving the info above, R1 has
+Network       Next Hop     Hop Count
+192.168.2.0    -----       0
+192.168.3.0    -----       0
+192.168.1.0    192.168.2.1       1
+192.168.2.0    192.168.2.1       1
+We only keep one row for one network, 
+if more than one row for one network, we only keep the one with the smallest hop count(the shorteast path).
+Network       Next Hop     Hop Count
+192.168.2.0    -----       0
+192.168.3.0    -----       0
+192.168.1.0    192.168.2.1       1
+Above is the final routing table for R1.
+
+In step 3, R1 -> R0
+The routing info R1 sends to R0 is
+Network       Next Hop     Hop Count
+192.168.2.0    192.168.2.2      1
+192.168.3.0    192.168.2.2       1
+192.168.1.0    192.168.2.2       2
+
+After receving the routing info above, R0 will update its own routing table
+
+Network        Next Hop    Hop Count
+192.168.1.0    -----       0
+192.168.2.0    -----       0
+192.168.2.0    192.168.2.2      1
+192.168.3.0    192.168.2.2       1
+192.168.1.0    192.168.2.2       2
+After comparing the networks and hop counts,
+we have routing table for R0
+Network        Next Hop    Hop Count
+192.168.1.0    -----       0
+192.168.2.0    -----       0
+192.168.3.0    192.168.2.2       1
+
+
+
+Finally
+For R0
+Network        Next Hop    Hop Count
+192.168.1.0    -----       0
+192.168.2.0    -----       0
+192.168.3.0    192.168.2.2       1
+For R1
+Network       Next Hop     Hop Count
+192.168.2.0    -----       0
+192.168.3.0    -----       0
+192.168.1.0    192.168.2.1       1
