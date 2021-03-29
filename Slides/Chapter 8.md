@@ -68,8 +68,8 @@ As the network grows, you’ll need to better manage network traffic by segmenti
 |Network class|default subnet mask(binary)|number of bits used for network information|default subnet mask(dot decimal)|
 |----|----|----|----|
 |A|**11111111** 00000000 00000000 00000000|8|**255**.0.0.0|
-|B|**11111111 11111111** 00000000 00000000|8|**255.255**.0.0|
-|C|**11111111 11111111 11111111** 00000000|8|**255.255.255**.0|
+|B|**11111111 11111111** 00000000 00000000|16|**255.255**.0.0|
+|C|**11111111 11111111 11111111** 00000000|24|**255.255.255**.0|
 
 
 ## CIDR (Classless Interdomain Routing)
