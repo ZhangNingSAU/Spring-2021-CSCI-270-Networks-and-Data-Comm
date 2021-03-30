@@ -68,3 +68,13 @@ https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/b7997194acc6491ba4f059972ccdbd73
 ## Wednesday 03/24/2021
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/f87ec2a77dc148dfaba234c9bd3319ae/playback
+## Friday 03/26/2021
+Quiz 2
+
+# Week 10
+## Monday 03/29/2021
+https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/c42b07b663de4409ad7fab63c7bf5519
+## Wednesday 03/31/2021
+Midterm Exam
+## Friday 04/02/2021
+Easter break, no class
