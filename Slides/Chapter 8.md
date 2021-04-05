@@ -26,7 +26,7 @@ Networks are commonly segmented according to one of the following groupings
 
 ![](../Resources/ch8-segmentation.png)
 
-Note: Broadcast domain in [Chapter 4](https://github.com/ZhangNingSAU/Fall-2020-CSCI-270-Networks-and-DataCommunications/blob/master/Lectures/Chapter%204.md)
+Note: Broadcast domain in [Chapter 4](../Slides/Chapter%204.md)
 # Subnets
 ![](../Resources/layer13.png)
 
