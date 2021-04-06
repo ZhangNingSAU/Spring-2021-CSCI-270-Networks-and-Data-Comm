@@ -78,3 +78,7 @@ https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/
 Midterm Exam
 ## Friday 04/02/2021
 Easter break, no class
+
+# Week 11
+## Monday 04/05/2021
+https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/14c122210bb3422a9d609fa8bcf3cd1f
