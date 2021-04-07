@@ -82,3 +82,5 @@ Easter break, no class
 # Week 11
 ## Monday 04/05/2021
 https://stambrose.webex.com/recordingservice/sites/stambrose/recording/playback/14c122210bb3422a9d609fa8bcf3cd1f
+## Wednesday 04/07/2021
+https://stambrose.webex.com/recordingservice/sites/stambrose/recording/cee6c90770a944ea88a82ccd8ccafa3a/playback
