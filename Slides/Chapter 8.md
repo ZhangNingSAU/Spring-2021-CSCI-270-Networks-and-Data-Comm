@@ -145,15 +145,15 @@ Note that: Each time you subnet a network, you lose two possible host addresses 
 |----|----|----|----|
 |1|Sales|120|192.168.10.0/25|
 |2|Accounting|58|192.168.10.128/26|
-|3|HR|25|192.168.10.128/27|
-|4|IT|6|192.168.10.128/29|
-|5|Executives|5|192.168.10.128/29|
-|6|WAN link|2|192.168.10.128/30|
-|7|WAN link|2|192.168.10.128/30|
+|3|HR|25|192.168.10.192/27|
+|4|IT|6|192.168.10.224/29|
+|5|Executives|5|192.168.10.232/29|
+|6|WAN link|2|192.168.10.240/29|
+|7|WAN link|2|192.168.10.248/29|
 
   - step 1: Determine the appropriate subnet mask and other network information for the largest subnet. By borrowing one bit from the host bits, we get the following available subnets:
     + Subnet 1: 192.168.10.0 /25
-    + Subnet 1: 192.168.10.0 /25
+    + Subnet 1: 192.168.10.128 /25
   - step 2: We assign the first of these subnets to the Sales department. Now we can use the second subnet for further calculations.
   - step 3: Determine the appropriate subnet mask and other network information for the next largest subnet. By borrowing one more bit from the host bits, we get the following available subnets:
     + Subnet 2: 192.168.10.128 /26
