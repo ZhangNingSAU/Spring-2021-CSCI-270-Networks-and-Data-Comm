@@ -254,4 +254,4 @@ on VLAN 1 connected to Switch A can travel to another device on VLAN 1 connected
   - Supports VoIP traffic
   
   
-[VLAN Lab](https://github.com/ZhangNingSAU/Fall-2020-CSCI-270-Networks-and-DataCommunications/blob/master/Labs/Lab8.md)
+[VLAN Lab](../Labs/Ch8-VLAN.md)
