@@ -1,5 +1,5 @@
 # Lab for chapter 8
-+ Note: **I am using CISCO Packet Tracer 7.3. If you are using version 8.0, replace the router interfaces gig0/0/0, gig0/0/1 with gig0/0, gig0/1...**
+
 ## Lab 1: Subnetting with static routing
 ### Step 1: Divide network `192.168.1.0/24` for the following three subnets
 |Subnet|number of hosts|
