@@ -1,5 +1,21 @@
 # Lab for chapter 8
-## VLAN with one switch
+## Lab 1: Subnetting with static routing
+### Step 1: Divide network `192.168.1.0/24` for the following three subnets
+|Subnet|number of hosts|
+|----|----|
+|1|100|
+|2|50|
+|3|25|
+### Step 2: Create static routing tables on Router 1 and Router 2.
++ Note: 
+  - Gig0/0/0 of Router 1 is in subnet 1.
+  - Gig0/0/1 of Router 1 and Gig0/0/1 of Router 2 are in subnet 2.
+  - Gig0/0/0 of Router 2 is in subnet 3.
+
+![ch8-lab1](../Resources/ch8-lab1.png)
+
+
+## Lab 2: VLAN with one switch
 + PC0 and PC1 in one VLAN(number:1, name:default)
 + PC2 and PC3 in another VLAN(number:20, name:lab1)
 
