@@ -1,4 +1,4 @@
-# CSCI 270 Fall 2020
+# CSCI 270 Spring 2021
 # Chapter 9: Network Risk Management
 ## Objectives:
 + Identify people, technology, and malware security risks to a network
