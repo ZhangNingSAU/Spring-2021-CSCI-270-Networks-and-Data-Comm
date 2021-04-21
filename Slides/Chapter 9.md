@@ -179,8 +179,8 @@ and prevents it from being copied, such as downloading to a flash drive, or tran
 + security experts often conduct simulated attacks on a network to determine its weaknesses.
 + three types of attack simulations:
   - vulnerability scanning: to identify vulnerabilities without exploit
-    + authenticated: the attacker is given the same access to the net- work as a trusted user would have
-    + unauthenticated: the attacker begins on the perimeter of the net- work, looking for vulnerabilities that do not require trusted user privileges.
+    + authenticated: the attacker is given the same access to the network as a trusted user would have
+    + unauthenticated: the attacker begins on the perimeter of the network, looking for vulnerabilities that do not require trusted user privileges.
   - penetration testing: to find network vulnerabilities, and attempts to exploit those vulnerabilities.
   - red team-blue team exercise: the red team conducts the attack, and the blue team attempts to defend the network.
 #### tools
