@@ -162,6 +162,9 @@ and prevents it from being copied, such as downloading to a flash drive, or tran
  
  
  ## Security Assessment
+ Before spending time and money on network security, first examine your network’s security risks.<br>
+ Consider the effect that a loss or breach of data, applications, or access would have on your network.<br>
+ The more serious the potential consequences, the more attention you need to pay to security.<br>
  + posture assessment: 
     - Every organization should assess its security risks by conducting a posture assessment.
     - Posture assessment is a thorough examination of each aspect of the network to determine how it might be compromised.
