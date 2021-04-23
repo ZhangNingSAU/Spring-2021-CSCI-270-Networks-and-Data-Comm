@@ -317,7 +317,7 @@ security gaps are often addressed in smaller, more frequent updates called patch
 #### username + password
 + Most devices that can be configured through a management interface come with a default access account.
 ![](https://i.pinimg.com/originals/1b/b0/41/1bb041fa6731f48502b15675e2cdebf1.png)
-+ The default crendentials are usually simple.
++ The default credentials are usually simple.
 + Surprisingly, many network administrators—even in large organizations—never take the time to change these credentials to something more difficult to crack.
 + make it a habit to change the default administrative credentials before you do anything else, and record this information in a safe place.
 #### ssh
