@@ -154,7 +154,9 @@ and prevents it from being copied, such as downloading to a flash drive, or tran
  
  #### Certain characteristics can make malware harder to detect and eliminate
  + encryption
+  - Most anti-malware software searches files for a recognizable string of characters that identify the virus.
  + stealth
+  - Some malware disguises itself as legitimate programs or replaces part of a legitimate program’s code with destructive code.
  + polymorphism
     - Polymorphic malware changes its characteristics (such as the arrangement of bytes, size, and internal instructions) every time it’s transferred to a new system
  + time dependence: Some malware is programmed to activate on a particular date.
