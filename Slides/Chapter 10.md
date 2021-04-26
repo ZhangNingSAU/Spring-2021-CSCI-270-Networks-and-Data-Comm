@@ -1,4 +1,4 @@
-# CSCI 270 Fall 2020
+# CSCI 270 Spring 2021
 # Chapter 10: SECURITY IN NETWORK DESIGN
 ## Objectives
 + Describe the functions and features of various network security devices
