@@ -369,8 +369,7 @@ security gaps are often addressed in smaller, more frequent updates called patch
 #### besides anti-malware software
 users can typically detect the operational changes without any special software. For example, you might suspect a virus on your system if any of the following symptoms arise:
 + Unexplained increases in file sizes
-+ Significant, unexplained decline in system or network performance (for example,
-+ a program takes much longer than usual to start or to save a file)
++ Significant, unexplained decline in system or network performance (for example, a program takes much longer than usual to start or to save a file)
 + Unusual error messages with no apparent cause
 + Significant, unexpected loss of system memory
 + Periodic, unexpected rebooting
