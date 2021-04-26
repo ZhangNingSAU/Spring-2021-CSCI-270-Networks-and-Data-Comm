@@ -179,6 +179,7 @@
 + proprietary versions of STP by manufacturers such as Cisco and Extreme Networks
 
 #### SPB at layer 3
++ making them more compatible with various types of technologies such as the connection protocols used on storage networks.
 
 ### Switch Port Security
 + Unused switch, router, or server ports can be accessed and exploited by hackers if they are not disabled.
