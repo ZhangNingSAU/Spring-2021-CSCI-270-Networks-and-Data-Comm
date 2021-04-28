@@ -172,6 +172,7 @@
 + `BPDU guard`: Blocks BPDUs on any port serving network hosts, such as workstations and servers, and thereby ensures these devices aren’t considered as possible paths. BPDU guards also enhance security by preventing a rogue switch or computer connected to one of these ports from hijacking the network’s STP paths.
 + `BPDU filter`: Disables STP on specific ports. For example, you might use a BPDU filter on the demarc, where the ISP’s service connects with a business’s network, to prevent the ISP’s WAN topology from mixing with the corporate network’s topology for the purpose of plotting STP paths.
 + `root guard`: Prevents switches beyond the configured port from becoming the root bridge. For example, an ISP might configure a root guard on an interface facing a customer’s network to ensure that none of the customer’s switches becomes the ISP’s root bridge.
+  - [root bridge](https://www.certificationkits.com/cisco-certification/ccna-articles/cisco-ccna-switching/cisco-ccna-spanning-tree-protocolroot-bridge-rootdesignatedblocked-ports/)
 
 ####  Newer versions of STP include the following:
 + RSTP (Rapid Spanning Tree Protocol)
