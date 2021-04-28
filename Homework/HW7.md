@@ -1,6 +1,6 @@
-# CSCI 270 Fall 2020
+# CSCI 270 Spring 2021
 # Homework 7 for chapters 9 and 10
-# Due: 11:59 pm 12/01/2020
+# Due: 11:59 pm 05/05/2021
 
 ## Q1(15 points): Give the definations of the terms:
 + data breach
@@ -34,7 +34,7 @@
 + A. True
 + B. False
 
-# Step 1: Save your answers for Q1-Q8 in a PDF file, name it as 'CSCI270_Homework7_JohnSmith(012345467).pdf' 
+# Step 1: Save your answers for Q1-Q8 in a PDF file, name it as 'CSCI270_Homework7_JohnDoe(012345467).pdf' 
     (You can write down your answer in any text edit and print it as a pdf file later.)
 
 
