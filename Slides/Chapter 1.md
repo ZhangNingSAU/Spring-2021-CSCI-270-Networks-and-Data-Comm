@@ -18,7 +18,7 @@ For the architecture of any big system, good **network** -> half done.
 **Computer Networks** is foundation of many new technologies.
 
 
-# Chapter 1: Introduction Networking
+# Chapter 1: Introduction to Networking
 
 ## Objectives
 + client-server vs. peer-to-peer networks
